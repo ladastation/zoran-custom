@@ -1,0 +1,36 @@
+{
+  "name": "zoran-custom",
+  "version": "1.0.0",
+  "description": "A node.js utility that allows you to do performance profiling at the functions level",
+  "keywords": [
+    "profiler", "performance", "speed"
+  ],
+  "homepage": "https://github.com/ladastation/zoran-custom.git",
+  "author": "ladastation",
+  "bin": {
+    "zoran": "./cli.js"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ladastation/zoran-custom.git"
+  },
+  "license": "BSD-3-Clause",
+  "preferGlobal": true,
+  "dependencies": {
+    "require-hook": "*"
+  },
+  "devDependencies": {
+    "should": "*",
+    "grunt": "^0.4.5",
+    "grunt-mocha-test": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-shell": "*"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "main": "index.js"
+}

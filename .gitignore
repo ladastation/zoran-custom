@@ -1,0 +1,9 @@
+/.idea
+/node_modules
+/out
+/reports
+/cov-reports
+zoran.hicharts.json
+zoran.json
+npm-debug.log
+
